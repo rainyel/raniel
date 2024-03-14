@@ -27,6 +27,7 @@ p, h1{
     display: flex;
     margin-top: 80px;
     margin-bottom: 225px;
+    background-image: -moz-linear-gradient(black lightgrey white);
 }
 
 .sec2{
