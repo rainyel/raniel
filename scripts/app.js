@@ -10,13 +10,13 @@ let obj1 = {
     title   : "THIS IS MY TITLE",
     par     : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero eius fugit facilis odit voluptatem provident, fuga asperiores possimus perferendis deserunt perspiciatis, architecto mollitia atque! Debitis, saepe! Sint inventore incidunt sequi.",
     button  : "Contact me",
-    img     : "./images/img1.png"
+    img     : "images/img1.png"
 }
 
 const { title, par, button, img } = obj1
 
 let obj2 = {
-    image   : "./images/img2.png",
+    image   : "images/img2.png",
     desc    : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero eius fugit facilis odit voluptatem provident, fuga asperiores possimus perferendis deserunt perspiciatis, architecto mollitia atque! Debitis, saepe! Sint inventore incidunt sequi.",
     button1 : "learn more",
     title2  : "Project Complete"
