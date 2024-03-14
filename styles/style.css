@@ -1,36 +1,42 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
 
-.sec1con{
+.sec1con {
     padding-top: 150px;
     margin-bottom: 50px;
 }
 
-div{
+div {
     padding-left: 100px;
 }
 
-img{
+img {
     width: 500px;
 }
 
-p, h1{
+p,
+h1 {
     width: 400px;
     margin-bottom: 20px;
 }
 
-.sec1{
-    display: flex;
-    margin-top: 80px;
-    margin-bottom: 225px;
-    background-image: -moz-linear-gradient(black lightgrey white);
+body{
+    transition: all 0.15s;
 }
 
-.sec2{
+.sec1 {
+    display: flex;
+    padding-top: 80px;
+    margin-bottom: 225px;
+    
+    background-image: linear-gradient(black, lightgrey, white, white,white,white);
+}
+
+.sec2 {
     display: flex;
     justify-content: space-evenly;
     width: 1000px;
@@ -38,7 +44,7 @@ p, h1{
 }
 
 
-button{
+button {
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 12px;
@@ -46,26 +52,26 @@ button{
     background-color: black;
     color: white;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     transition: box-shadow 0.5s;
 }
 
-button:hover{
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+button:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-button:active{
+button:active {
     transition: opacity 0.15s;
     opacity: 0.8;
 }
 
-.hop{
+.hop {
     width: 300px;
     height: 300px;
 
 }
 
-.cardsec2{
+.cardsec2 {
     margin-right: 20px;
     padding-right: 300px;
     padding-left: 0;
@@ -75,28 +81,28 @@ button:active{
     border-radius: 10px;
     overflow: hidden;
     padding-bottom: 20px;
-    box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
     opacity: 0.5;
     transition: all 0.15s;
 }
 
-.cardsec2:hover{
+.cardsec2:hover {
     opacity: 1;
-    box-shadow: 10px 20px 20px rgba(0,0,0,0.5);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
 }
 
-.cardsec2:active{
-    box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
+.cardsec2:active {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
-.hud{
+.hud {
     margin-left: 10px;
     margin-right: 10px;
     width: 280px;
 
 }
 
-.but{
+.but {
     margin-left: 10px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -105,7 +111,7 @@ button:active{
     width: 100px;
 }
 
-.sec3 h1{
+.sec3 h1 {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
